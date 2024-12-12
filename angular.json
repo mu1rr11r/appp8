@@ -25,9 +25,13 @@
               "src/assets"
             ],
             "styles": [
+              "../appp8/node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "../appp8/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "../appp8/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
